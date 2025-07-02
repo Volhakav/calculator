@@ -3,7 +3,8 @@ body{
   justify-content: center;  
   align-items: center;
   height: 100vh;
-  margin: 0;   
+  margin: 0; 
+  background-color: #92d0c2;  
 }
 
 .main{
@@ -15,7 +16,7 @@ body{
     
 }
 
-.text_field{
+#text_field{
     position: relative;
     margin-top: 69px;
     margin-left: 27px;
@@ -24,7 +25,8 @@ body{
     height: 53px;
     background-color: #D7D2D2;
     border-radius: 10px;
-
+    border: none;
+    font-size: 20px;
 }
 
 .row{

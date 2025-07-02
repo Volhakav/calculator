@@ -8,31 +8,32 @@
 </head>
 <body>
     <div class="main">
-        <div class="text_field"></div> 
+        <input type="text" id="text_field">
         <div class="row">
-            <button class="btn number">7</button>
-            <button class="btn number">8</button>
-            <button class="btn number">9</button>
-            <button class="btn operator">/</button>
+            <button onclick="document.getElementById('text_field').value += '7'" class="btn number seven">7</button>
+            <button onclick="document.getElementById('text_field').value += '8'" class="btn number eight">8</button>
+            <button onclick="document.getElementById('text_field').value += '9'" class="btn number nine">9</button>
+            <button onclick="document.getElementById('text_field').value += '/'" class="btn operator division">/</button>
         </div>
          <div class="row">
-            <button class="btn number">4</button>
-            <button class="btn number">5</button>
-            <button class="btn number">6</button>
-            <button class="btn operator">x</button>
+            <button onclick="document.getElementById('text_field').value += '4'" class="btn number four">4</button>
+            <button onclick="document.getElementById('text_field').value += '5'" class="btn number five">5</button>
+            <button onclick="document.getElementById('text_field').value += '6'" class="btn number six">6</button>
+            <button onclick="document.getElementById('text_field').value += 'x'" class="btn operator multiply">x</button>
         </div>
         <div class="row">
-            <button class="btn number">1</button>
-            <button class="btn number">2</button>
-            <button class="btn number">3</button>
-            <button class="btn operator">+</button>
+            <button onclick="document.getElementById('text_field').value += '1'" class="btn number one">1</button>
+            <button onclick="document.getElementById('text_field').value += '2'" class="btn number two">2</button>
+            <button onclick="document.getElementById('text_field').value += '3'" class="btn number three">3</button>
+            <button onclick="document.getElementById('text_field').value += '+'" class="btn operator plus">+</button>
         </div>
         <div class="row">
-            <button class="btn number">0</button>
-            <button class="btn operator">,</button>
-            <button class="btn equal">=</button>
-            <button class="btn operator">-</button>
+            <button onclick="document.getElementById('text_field').value += '0'" class="btn number zero">0</button>
+            <button onclick="document.getElementById('text_field').value += ','" class="btn operator comma">,</button>
+            <button onclick="document.getElementById('text_field').value += '='" class="btn equal ">=</button>
+            <button onclick="document.getElementById('text_field').value += '-'" class="btn operator minus">-</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
