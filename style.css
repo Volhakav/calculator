@@ -1,0 +1,57 @@
+body{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 100vh;
+  margin: 0;   
+}
+
+.main{
+    position: absolute;
+    width: 428px;
+    height: 634px;
+    background-color: #EFEEAD;
+    border-radius: 41px;
+    
+}
+
+.text_field{
+    position: relative;
+    margin-top: 69px;
+    margin-left: 27px;
+    margin-bottom: 51px;
+    width: 374px;
+    height: 53px;
+    background-color: #D7D2D2;
+    border-radius: 10px;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+
+.btn {
+  width: 70px;
+  height: 55px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.number {
+  background-color: #DEB9DE; 
+}
+
+.operator {
+  background-color: #98CDE9;
+}
+
+.equal {
+  background-color: red;
+}
