@@ -3,7 +3,6 @@ document.querySelector('.btn.equal').addEventListener('click', () => {
     try{
         const result = eval(textField.value
             .replace(/x/g, '*')
-            .replace(/,/g, '.')
             .replace(/[^-()\d/*+.]/g, ''));
         textField.value = result;
     } catch(error){
